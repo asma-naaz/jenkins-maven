@@ -29,11 +29,10 @@ This project is a simple **Java HelloWorld application** built using **Maven** a
 * Run the following command to enter the Jenkins container:
 * sudo docker exec -it jenkins bash
 * Then, install Java and Maven inside the container:
-
-apt update
-apt install -y maven
-Install Jenkins dependencies (if needed):
-apt install -y openjdk-11-jdk
+* apt update
+* apt install -y maven
+* Install Jenkins dependencies (if needed):
+* apt install -y openjdk-11-jdk
 
 # Step 4: Configure Jenkins Job
 * Add Maven in Jenkins Configuration:
